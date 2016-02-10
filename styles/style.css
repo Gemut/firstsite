@@ -1,0 +1,120 @@
+body {
+	background-image: url(../img/orleans_express_upper_r_.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+p {
+	margin-left: inherit;
+	margin-right: inherit;
+	background-color: inherit;
+}
+
+review {
+	font-size: 22px;
+	font-family: Times, Arial, sans-serif;
+	margin-left: 30px;
+	margin-right: 70px;
+}
+
+.rvw {
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 50px;
+	margin-top: 0px;
+	margin-left: inherit;
+	margin-right: inherit;
+	background-color: inherit;
+}
+
+/*
+.rvw2 {
+	font-size: 22px;
+	font-family: Times, Arial, sans-serif;
+	margin-left: 30px;
+	margin-right: 70px;
+}
+*/
+
+.menulinks{
+	color: black;
+}
+
+.reviewlinks:link {
+	color:black;
+	text-decoration: none;
+}
+
+.reviewlinks:visited {
+	text-decoration: none;
+	color: gray;
+}
+
+.nextlink:hover {
+	text-decoration: none;
+}
+
+.nextlink:visited {
+	text-decoration: none;
+	color: gray;
+}
+
+.gotocomments {
+	text-align: right;
+	border-bottom: 1px solid black;
+	margin-left: 0;
+}
+
+.shortreview {
+	background-color: #FFF4E0;
+	margin-right: 100px
+}
+
+.catalog {
+	list-style-image: url(../img/4.png);
+}
+
+.catalog2 {
+	list-style-image: url(../img/forward.png);
+}
+/*
+.cataloglink:link:after{
+	content: "новое";
+}
+
+.cataloglink:visited:after{
+	content: "вdsfhgар";
+}
+*/
+.cataloglink {
+	text-decoration: none;
+	color: black;
+}
+
+.galleryimg {
+	border: 3px solid black;
+}
+
+.galleryimg:hover {
+	border: none;
+	margin: 3px;
+}
+
+.inputtext {
+	width: 150px;
+}
+
+.inputpswrd {
+	width: 100px;
+}
+
+.inputemail:focus {
+	background-color: green;
+}
+
+.clear:active {
+	background-color: red;
+}
+
+.check:hover {
+	border: 3px solid black;
+}
