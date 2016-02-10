@@ -2,34 +2,37 @@
 <head>
 	<meta charset="utf-8">
 	<title>Регистрация</title>
+	<link rel="stylesheet"
+	href="styles/style.css"
+	type="text/css">
 </head>
 
 <body>
-<h1>Страница регистрации</h1>
-<h2>Ссылки:</h2>
+<h2>Меню:</h2>
 <ul>
-    <li><a href="index.html">Главная</a></li>
-    <li><a href="./folder/reviews.html">Статьи</a></li>
-    <li><a href="./catalog/catalog.html">Каталог</a></li>
-    <li><a href="./folder/gallery.html">Галерея изображений</a></li>
+    <li><a href="index.html" class="menulinks">Главная</a></li>
+    <li><a href="./folder/reviews.html" class="menulinks">Статьи</a></li>
+    <li><a href="./catalog/catalog.html" class="menulinks">Каталог</a></li>
+    <li><a href="./folder/gallery.html" class="menulinks">Галерея изображений</a></li>
     <li>Регистрация</li>
-    <li><a href="./contacts/contacts.html">Контакты</a></li>
+    <li><a href="./contacts/contacts.html" class="menulinks">Контакты</a></li>
+	<li><a href="credit.html" class="menulinks">Кредитный калькулятор</a></li>
 </ul>
 <form
 		method="post"
 		enctype="multipart/form-data">
 	<fieldset>
 		<legend>Контактные данные</legend>
-			<input type="text" size="20"> Фамилия<p>
-			<input type="text" size="20"> Имя<p>
-			<input type="text" size="20"> Отчество<p>
+			<p><input type="text" class="inputtext"> Фамилия<p>
+			<input type="text" class="inputtext"> Имя<p>
+			<input type="text" class="inputtext"> Отчество<p>
 			<input type="file"> Добавьте фотографию<p>
-			<input type="text" size="20"> Адресь электронной почты<p>
-			<input type="password" size="20"> Пароль<p>
+			<input type="text" class="inputemail"> Адресь электронной почты<p>
+			<input type="password" class="inputpswrd"> Пароль<p>
 			<input type="text" value="http://" size="40"> Адрес сайта<p>
 			Ваш пол:<br>
-			<label><input type="radio" name="sex">Мужской<br></label>
-			<label><input type="radio" name="sex">Женский<p></label>
+			<label><input type="radio" name="sex" class="check">Мужской<br></label>
+			<label><input type="radio" name="sex" class="check">Женский<p></label>
 			Дата рождения:<br>
 			<select name="date" size="1">
 				<option value=“1”>до 2000</option>
@@ -37,7 +40,7 @@
 			</select><p>
 			Комментарии:<br>
 			<textarea cols="50" rows="5" name="whocares"></textarea><p>
-			<input type="reset" value="Очистить">
+			<input type="reset" value="Очистить" class="clear">
 			<input type="submit" value="Сохранить">
 	</fieldset>
 </form>
