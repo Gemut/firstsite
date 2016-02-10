@@ -3,7 +3,7 @@
 mb_internal_encoding('utf-8');
 error_reporting(-1);
 
-$productCost = 40000;    //цена товара
+$productCost = $_POST['pc'];    //цена товара
 $firstComission = 0;    //комиссия за оформление кредита
 $credit = $productCost + $firstComission;
 $percentInput = 3;
