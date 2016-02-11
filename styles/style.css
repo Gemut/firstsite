@@ -1,12 +1,17 @@
 body {
-	background-image: url(../img/orleans_express_upper_r_.png);
+	background-image: url(../img/15-fon-dlya-sayta.png);
 	background-position: right top;
-	background-repeat: no-repeat;
 }
 p {
 	margin-left: inherit;
 	margin-right: inherit;
 	background-color: inherit;
+}
+
+td {
+	border: 1px solid black;
+	vertical-align: middle;
+	padding: 5px;
 }
 
 review {
@@ -26,17 +31,38 @@ review {
 	background-color: inherit;
 }
 
-/*
 .rvw2 {
 	font-size: 22px;
 	font-family: Times, Arial, sans-serif;
 	margin-left: 30px;
 	margin-right: 70px;
+	margin-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #FFEEC4;
 }
-*/
+
+.menu {
+	background-color: #FFF8EE;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	width: 300px;
+}
 
 .menulinks{
 	color: black;
+}
+
+.registr {
+	margin-top: 10px;
+	background-color: #ECF9FF;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.tableHead {
+	text-align: center;
 }
 
 .reviewlinks:link {

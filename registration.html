@@ -8,6 +8,7 @@
 </head>
 
 <body>
+<div class="menu">
 <h2>Меню:</h2>
 <ul>
     <li><a href="index.html" class="menulinks">Главная</a></li>
@@ -18,31 +19,32 @@
     <li><a href="./contacts/contacts.html" class="menulinks">Контакты</a></li>
 	<li><a href="credit.html" class="menulinks">Кредитный калькулятор</a></li>
 </ul>
+</div>
 <form
 		method="post"
 		enctype="multipart/form-data">
-	<fieldset>
-		<legend>Контактные данные</legend>
-			<p><input type="text" class="inputtext"> Фамилия<p>
-			<input type="text" class="inputtext"> Имя<p>
-			<input type="text" class="inputtext"> Отчество<p>
-			<input type="file"> Добавьте фотографию<p>
-			<input type="text" class="inputemail"> Адресь электронной почты<p>
-			<input type="password" class="inputpswrd"> Пароль<p>
-			<input type="text" value="http://" size="40"> Адрес сайта<p>
-			Ваш пол:<br>
+	<table class="registr">
+		<tr><td colspan="2" class="tableHead">Контактные данные
+			<tr><td><input type="text" class="inputtext"><td>Фамилия
+			<tr><td><input type="text" class="inputtext"><td>Имя
+			<tr><td><input type="text" class="inputtext"><td>Отчество
+			<tr><td><input type="file"><td>Добавьте фотографию
+			<tr><td><input type="text" class="inputemail"><td>Адресь электронной почты
+			<tr><td><input type="password" class="inputpswrd"><td>Пароль
+			<tr><td colspan="2">Адрес сайта:<br><input type="text" value="http://" size="45">
+			<tr><td colspan="2">Ваш пол:<br>
 			<label><input type="radio" name="sex" class="check">Мужской<br></label>
 			<label><input type="radio" name="sex" class="check">Женский<p></label>
-			Дата рождения:<br>
+			<tr><td>Дата рождения:<td>
 			<select name="date" size="1">
 				<option value=“1”>до 2000</option>
 				<option value=“2” selected=“selected”>после 2000</option>
 			</select><p>
-			Комментарии:<br>
+			<tr><td colspan="2">Комментарии:<br>
 			<textarea cols="50" rows="5" name="whocares"></textarea><p>
-			<input type="reset" value="Очистить" class="clear">
+			<tr><td colspan="2"><input type="reset" value="Очистить" class="clear">
 			<input type="submit" value="Сохранить">
-	</fieldset>
+	</table>
 </form>
 <footer>
 &copy; 
